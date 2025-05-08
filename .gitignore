@@ -1,0 +1,124 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+develop-eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds an application, so they are not needed.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static checker
+.pytype/
+
+# Cython cache files
+__pycache__/**/__*.pyc
+__pycache__/**/__*.pyo
+
+# Data files & Logs
+# Uncommenting the next line would exclude all CSV files, 
+# be careful if you have CSVs you want to track.
+# *.csv
+*.log
+
+# Specific large processed data files that should not be versioned
+# Example: processed_features_right_ankle.csv 
+# (already in your .gitignore, keeping it if you want to explicitly ignore it)
+# If you decide to track it, remove or comment out the line below.
+# processed_features_right_ankle.csv
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Optional: If you have very large raw data in sub1/, sub2/ etc. and don't want to track them.
+# Consider adding them like this:
+# sub*/*/Falls/*.xlsx
+# sub*/*/ADLs/*.xlsx
+# sub*/*/Near_Falls/*.xlsx
+# Or more generally:
+# sub*/*/*.xlsx
+# Be careful with this, as it will ignore all .xlsx files in those subdirectories.
+# If you want to track some, this approach is too broad.
+
+# If your plots/ directory contains generated images you don't want to track:
+# plots/*.png
+# plots/*.jpg
+# plots/*.pdf 
