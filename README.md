@@ -163,6 +163,7 @@ The **Random Forest classifier** was selected for several reasons:
 3. **Handles non-linear relationships**: The relationship between sensor data and falls is complex and non-linear.
 4. **Class imbalance management**: Random Forests can be configured to handle class imbalance through class weights.
 5. **Feature importance**: Random Forests provide insights into feature importance, helpful for understanding which measurements are most indicative of falls.
+6. **Less sensitive to multicollinearity**: Unlike LSTM and temporal regression models, Random Forests are more robust to multicollinearity among features, which is common in IMU sensor data where different axes may capture related movements.
 
 The model was configured with **150 trees** and **balanced class weights** (`class_weight='balanced'`) to account for the slight class imbalance (approximately 66% non-falls, 34% falls).
 
