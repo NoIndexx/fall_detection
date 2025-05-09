@@ -47,7 +47,7 @@ For each location, the following measurements were recorded at **~128Hz**:
 
 ### Prerequisites
 
-- Python 3.8+ (Project developed with Python 3.8.10)
+- Python 3.13.2 (Project developed with Python 3.13.2)
 - Pip package manager
 
 ### Installation Steps
